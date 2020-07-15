@@ -1,0 +1,21 @@
+{
+  "sql-file": true,
+  "dev": {
+    "driver": "pg",
+    "ENV": "DEV_DATABASE_URL",
+    "ssl": "true",
+    "schema": "guimy"
+  },
+  "test": {
+    "driver": "pg",
+    "ENV": "TEST_DATABASE_URL",
+    "ssl": "true",
+    "schema": "guimy"
+  },
+  "prod": {
+    "driver": "pg",
+    "ENV": "DATABASE_URL",
+    "ssl": "true",
+    "schema": "guimy"
+  }
+}
