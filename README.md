@@ -23,7 +23,7 @@ Live at [guimy-backend.herokuapp.com][live]
 
 ## Table of Contents
 
-- [CoolTicket Server](#guimy-backend)
+- [CoolTicket Server](#coolticket-server)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [How to use it](#how-to-use-it)
@@ -37,10 +37,10 @@ Live at [guimy-backend.herokuapp.com][live]
 ## Features
 
 [![Framework][badge-framework]][framework-url]
-![javascript][]
-![nodejs][]
-![postgres][]
-![heroku][]
+[![][javascript]][javascript-url]
+[![][nodejs]][nodejs-url]
+[![][postgres]][postgres-url]
+[![][heroku]][heroku-url]
 
 - Async/Await support
 - WinstonJs Logger Implementation
@@ -71,8 +71,8 @@ But you can use any language or library: PHP, GO, C++, Rust, etc. The only uniqu
 Some interesting endpoints:
 
 - GET `/` - Swagger Documentation
-- POST `api/v1/auth/login` -  (email, password) Get a JWT
-- POST `api/v1/auth/signup` -  (email, password, name, userType) Create a new User
+- POST `api/v1/auth/login` - (email, password) Get a JWT
+- POST `api/v1/auth/signup` - (email, password, name, userType) Create a new User
 - GET `/api/v1/tickets/all` - (protected by JWT) Get all the tickets
 
 More info in the swagger documentation [Live Here][live]
@@ -146,7 +146,7 @@ For more information about the code please check the [code overview](docs/CODE_O
         </div>
     </td>
   </tr>
-</table> 
+</table>
 
 ## Contributing
 
@@ -163,7 +163,7 @@ Happy programming :smiley: :v:
 
 Icons from:
 
-[![Icons8][icons8-logo]][Icons8] Icons8
+[![Icons8][icons8-logo]][icons8] Icons8
 
 ## License
 
@@ -173,6 +173,7 @@ Icons from:
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/guimy-backend?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/guimy-backend/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/guimy-backend?style=for-the-badge
@@ -183,7 +184,6 @@ Feel free to fork this project and improve it
 [issues-url]: https://github.com/Israel-Laguan/guimy-backend/issues
 [issues-closed-shield]: https://img.shields.io/github/issues-closed/Israel-Laguan/guimy-backend?style=for-the-badge
 [badge-framework]: https://img.shields.io/badge/express.js-v4.x-9cf?style=for-the-badge
-[framework-url]: https://expressjs.com/
 [contributions-welcome]: https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=for-the-badge
 [badge-license]: https://img.shields.io/:license-mit-blue.svg?style=for-the-badge
 [javascript]: https://img.shields.io/badge/JAVASCRIPT-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript
@@ -192,9 +192,17 @@ Feel free to fork this project and improve it
 [postgres]: https://img.shields.io/badge/database-postgreSQL-47A248?style=for-the-badge&logo=postgresql
 [badge-gnu-agpl]: https://img.shields.io/badge/License-GNU%20AGPLv3-important.svg?style=for-the-badge
 [gnu-agpl-license]: https://choosealicense.com/licenses/agpl-3.0/
-[Icons8]: https://icons8.com/
+[icons8]: https://icons8.com/
 [icons8-logo]: https://img.icons8.com/fluent/20/000000/icons8-new-logo.png
 [live]: https://guimy-backend.herokuapp.com/
 [localhost:8080]: http://localhost:8080/
 [badge-standard]: https://cdn.rawgit.com/standard/standard/master/badge.svg
 [standard-style]: https://github.com/standard/standard
+
+<!-- URL -->
+
+[heroku-url]: https://devcenter.heroku.com/categories/reference
+[javascript-url]: https://devdocs.io/javascript/
+[framework-url]: https://expressjs.com/
+[postgres-url]: https://www.postgresql.org/docs/
+[nodejs-url]: https://nodejs.org/en/docs/
